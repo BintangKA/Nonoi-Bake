@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 
 type Product = {
@@ -85,7 +85,7 @@ const products: Product[] = [
   },
 ];
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -93,7 +93,7 @@ const containerVariants = {
   },
 };
 
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: { y: 50, opacity: 0, scale: 0.9 },
   visible: {
     y: 0,
