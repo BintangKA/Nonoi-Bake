@@ -34,7 +34,7 @@ const products: Product[] = [
     title: "Nastar Set",
     description:
       "Traditional pineapple cookies with buttery crust and sweet filling.",
-    price: 12000,
+    price: 120000,
     image: "/images/produk/nastar_set.jpg",
   },
 ];

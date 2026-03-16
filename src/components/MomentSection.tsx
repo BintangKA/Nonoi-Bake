@@ -92,7 +92,7 @@ export default function MomentSection() {
           >
             <div className="bg-[#6d0f1b] size-3 rounded-full self-end animate-pulse"></div>
             <div>
-              <h1 className="text-5xl lg:text-6xl text-gray-900 font-semibold font-poppins tracking-tighter">
+              <h1 className="text-3xl md:text-4xl lg:text-6xl text-gray-900 font-semibold font-poppins tracking-tighter">
                 <Counter value={20} suffix="+" />
               </h1>
               <p className="text-gray-700 font-inter mt-2 text-sm md:text-base font-medium opacity-80">
@@ -132,7 +132,7 @@ export default function MomentSection() {
           >
             <div className="bg-white/40 size-3 rounded-full self-end"></div>
             <div>
-              <h1 className="text-5xl lg:text-6xl text-white font-semibold font-poppins tracking-tighter">
+              <h1 className="text-3xl md:text-4xl lg:text-6xl text-white font-semibold font-poppins tracking-tighter">
                 <Counter value={96.8} decimals={1} suffix="%" />
               </h1>
               <p className="text-white font-inter mt-2 text-sm font-medium opacity-90">
@@ -161,7 +161,7 @@ export default function MomentSection() {
             </div>
             <div className="bg-[#6d0f1b]/20 size-3 rounded-full self-end"></div>
             <div>
-              <h1 className="text-5xl lg:text-6xl text-gray-900 font-semibold font-poppins tracking-tighter">
+              <h1 className="text-3xl md:text-4xl lg:text-6xl text-gray-900 font-semibold font-poppins tracking-tighter">
                 <Counter value={4000} suffix="+" />
               </h1>
               <p className="text-gray-700 font-inter mt-3 text-lg font-medium max-w-md">
@@ -189,7 +189,7 @@ export default function MomentSection() {
           >
             <div className="bg-[#6d0f1b] size-3 rounded-full self-end"></div>
             <div>
-              <h1 className="text-5xl lg:text-6xl text-gray-900 font-semibold font-poppins tracking-tighter">
+              <h1 className="text-3xl md:text-4xl lg:text-6xl text-gray-900 font-semibold font-poppins tracking-tighter">
                 <Counter value={1500} suffix="+" />
               </h1>
               <p className="text-gray-700 font-inter mt-2 text-sm font-medium opacity-80">
