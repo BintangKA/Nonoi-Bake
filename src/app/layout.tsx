@@ -27,12 +27,19 @@ const koulen = Koulen({
 export const metadata: Metadata = {
   metadataBase: new URL("https://nonoi-bake.vercel.app"),
 
-  title: "Toko Kue Premium Jogja | Fresh Cake",
+  title: "Toko Kue Jogja | Nonoi Bake Bakery Premium",
 
   description:
-    "Toko kue premium dengan bahan terbaik. Pesan lapis legit, cookies, dan berbagai kue spesial untuk acara istimewa.",
+    "Nonoi Bake adalah toko kue di Jogja yang menyediakan berbagai pilihan kue premium seperti lapis legit, cookies, dan kue spesial untuk berbagai acara.",
 
-  keywords: ["bakery", "toko kue", "lapis legit", "cookies", "toko kue jogja"],
+  keywords: [
+    "toko kue jogja",
+    "bakery jogja",
+    "lapis legit jogja",
+    "cookies jogja",
+    "kue premium jogja",
+    "nonoi bake bakery",
+  ],
 
   robots: {
     index: true,
@@ -40,10 +47,11 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Fresh Cake",
-    description: "Toko kue premium dengan bahan terbaik.",
+    title: "Nonoi Bake | Toko Kue Jogja",
+    description:
+      "Toko kue di Jogja yang menyediakan lapis legit, cookies, dan berbagai kue premium untuk acara spesial.",
     url: "https://nonoi-bake.vercel.app",
-    siteName: "Fresh Cake",
+    siteName: "Nonoi Bake",
     locale: "id_ID",
     type: "website",
 
@@ -52,11 +60,10 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Fresh Cake Bakery",
+        alt: "Nonoi Bake Toko Kue Jogja",
       },
     ],
   },
-
 };
 
 export default function RootLayout({
