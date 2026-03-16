@@ -25,8 +25,38 @@ const koulen = Koulen({
 });
 
 export const metadata: Metadata = {
-  title: "Nonoi Bake",
-  description: "Fresh bakery from Nonoi Bake",
+  metadataBase: new URL("https://nonoi-bake.vercel.app"),
+
+  title: "Toko Kue Premium Jogja | Fresh Cake",
+
+  description:
+    "Toko kue premium dengan bahan terbaik. Pesan lapis legit, cookies, dan berbagai kue spesial untuk acara istimewa.",
+
+  keywords: ["bakery", "toko kue", "lapis legit", "cookies", "toko kue jogja"],
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    title: "Fresh Cake",
+    description: "Toko kue premium dengan bahan terbaik.",
+    url: "https://nonoi-bake.vercel.app",
+    siteName: "Fresh Cake",
+    locale: "id_ID",
+    type: "website",
+
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Fresh Cake Bakery",
+      },
+    ],
+  },
+
 };
 
 export default function RootLayout({

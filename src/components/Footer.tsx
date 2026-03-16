@@ -33,8 +33,6 @@ export default function Footer() {
 
   const socials = [
     { icon: Instagram, href: "https://instagram.com/nonoi_bake" },
-    { icon: Facebook, href: "https://facebook.com/nonoi_bake" },
-    { icon: Twitter, href: "https://twitter.com/nonoi_bake" },
   ];
 
   const itemVariants = {
@@ -170,10 +168,10 @@ export default function Footer() {
             Cipta Dilindungi.
           </p>
           <div className="flex gap-8 text-xs font-bold tracking-widest text-pink-100/30 uppercase">
-            <Link href="#" className="hover:text-pink-400 transition-colors">
+            <Link href="/" className="hover:text-pink-400 transition-colors">
               Privacy Policy
             </Link>
-            <Link href="#" className="hover:text-pink-400 transition-colors">
+            <Link href="/" className="hover:text-pink-400 transition-colors">
               Terms of Service
             </Link>
           </div>

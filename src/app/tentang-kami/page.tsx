@@ -110,13 +110,12 @@ export default function AboutView() {
             ease: "linear",
             repeat: Infinity,
           }}
-          // Memperlambat saat di-hover
           whileHover={{ transition: { duration: 60 } }}
         >
           {[...highlights, ...highlights].map((item, index) => (
             <motion.span
               key={index}
-              whileHover={{ scale: 1.1, color: "#ea580c" }} // Orange-600 on hover
+              whileHover={{ scale: 1.1, color: "#ea580c" }}
               className="text-[#6d0f1b] font-bold text-2xl tracking-[0.2em] uppercase flex items-center gap-20 transition-colors duration-300 cursor-default"
             >
               {item}
@@ -125,9 +124,8 @@ export default function AboutView() {
         </motion.div>
       </motion.div>
 
-      {/* ABOUT CONTENT SECTION */}
       <section
-        className="pb-20 pt-10 relative overflow-hidden font-poppins"
+        className="pb-20  relative overflow-hidden font-poppins"
         ref={aboutSectionRef}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -169,7 +167,7 @@ export default function AboutView() {
 
               <div className="relative z-10">
                 <Image
-                  src="/images/about.png"
+                  src="/images/about.jpg"
                   alt="Tentang Nonoi Bake"
                   width={600}
                   height={500}
