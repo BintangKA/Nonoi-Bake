@@ -141,7 +141,7 @@ export default function Navbar() {
             >
               <div className="mx-4 border-t border-gray-100" />
 
-              <div className="flex flex-col space-y-2 py-6 px-6">
+              <div className="flex flex-col space-y-2 py-6 px-2">
                 {menuItems.map((item, idx) => (
                   <motion.div
                     key={item.name}
