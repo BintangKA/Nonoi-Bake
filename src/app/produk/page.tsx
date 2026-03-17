@@ -17,7 +17,7 @@ const products: Product[] = [
     id: "1",
     title: "Lapis Legit",
     description:
-      "Traditional Indonesian layered cake with rich butter flavor and soft texture.",
+      "Kue lapis tradisional dengan lapisan yang lembut, aroma butter yang kaya, dan rasa manis yang pas. Dibuat dengan bahan pilihan untuk menghadirkan cita rasa klasik yang istimewa di setiap potongannya.",
     price: 510000,
     image: "/images/produk/lapis_legit.png",
   },
@@ -25,7 +25,7 @@ const products: Product[] = [
     id: "2",
     title: "Soft Cookies",
     description:
-      "Soft baked cookies with premium chocolate chips and buttery flavor.",
+      "Cookies lembut dengan tekstur chewy dan dipenuhi choco chips premium. Dipanggang segar untuk menghadirkan perpaduan rasa manis dan buttery yang sempurna di setiap gigitan.",
     price: 15000,
     image: "/images/produk/soft_cookie.jpg",
   },
@@ -33,7 +33,7 @@ const products: Product[] = [
     id: "3",
     title: "Nastar Set",
     description:
-      "Traditional pineapple cookies with buttery crust and sweet filling.",
+      "Kue nastar klasik dengan kulit yang lembut dan isian selai nanas yang manis segar. Dibuat dengan resep pilihan untuk menghadirkan rasa autentik yang selalu dirindukan.",
     price: 120000,
     image: "/images/produk/nastar_set.jpg",
   },
