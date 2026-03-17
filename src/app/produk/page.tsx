@@ -17,7 +17,7 @@ const products: Product[] = [
     id: "1",
     title: "Lapis Legit",
     description:
-      "Kue lapis tradisional dengan lapisan yang lembut, aroma butter yang kaya, dan rasa manis yang pas. Dibuat dengan bahan pilihan untuk menghadirkan cita rasa klasik yang istimewa di setiap potongannya.",
+      "Kue lapis tradisional dengan lapisan yang lembut, aroma butter yang kaya, dan rasa manis yang pas. Dibuat dengan bahan pilihan untuk menghadirkan cita rasa klasik yang istimewa",
     price: 510000,
     image: "/images/produk/lapis_legit.png",
   },
