@@ -51,7 +51,9 @@ export default function FAQSection() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="font-koulen text-4xl tracking-wide">Pertanyan Umum?</div>
+        <div className="font-koulen text-4xl tracking-wide">
+          Pertanyan Umum?
+        </div>
         {faqs.map((faq, index) => (
           <div key={index} className="border-b border-gray-200 py-6">
             <button
@@ -62,9 +64,18 @@ export default function FAQSection() {
                 {faq.question}
               </h3>
 
-              <span className="text-2xl text-gray-500">
-                {active === index ? "−" : "+"}
-              </span>
+              <AnimatePresence mode="wait">
+                <motion.span
+                  key={active === index ? "minus" : "plus"}
+                  initial={{ rotate: -90, opacity: 0, scale: 0.5 }}
+                  animate={{ rotate: 0, opacity: 1, scale: 1 }}
+                  exit={{ rotate: 90, opacity: 0, scale: 0.5 }}
+                  transition={{ duration: 0.2 }}
+                  className="text-2xl text-gray-500 inline-block"
+                >
+                  {active === index ? "−" : "+"}
+                </motion.span>
+              </AnimatePresence>
             </button>
 
             <AnimatePresence>
