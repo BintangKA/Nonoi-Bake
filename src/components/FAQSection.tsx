@@ -5,39 +5,24 @@ import { motion, AnimatePresence } from "motion/react";
 
 const faqs = [
   {
-    question: "Apakah Nonoi Bake menerima pesanan custom?",
+    question: "Berapa ukuran kue lapis yang tersedia?",
     answer:
-      "Ya, kami menerima pesanan custom untuk berbagai acara seperti ulang tahun, pernikahan, atau acara spesial lainnya.",
+      "Kue lapis kami tersedia dalam ukuran standar 18 cm x 18 cm, cocok untuk dinikmati bersama keluarga atau sebagai hadiah spesial.",
   },
   {
-    question: "Berapa lama waktu pembuatan pesanan?",
+    question: "Apakah bisa melakukan pengiriman ke luar kota?",
     answer:
-      "Waktu pembuatan biasanya 1–3 hari tergantung jenis produk dan jumlah pesanan.",
+      "Tentu bisa! Kami melayani pengiriman ke luar kota, bahkan kue kami sudah pernah dikirim hingga ke luar negeri (Amerika) dengan kondisi tetap aman. Kami menggunakan pengemasan khusus agar kualitas kue tetap terjaga selama perjalanan.",
   },
   {
-    question: "Apakah bahan yang digunakan berkualitas?",
+    question: "Berapa lama daya tahan kue?",
     answer:
-      "Kami hanya menggunakan bahan premium dan segar untuk memastikan rasa dan kualitas terbaik.",
+      "Suhu ruangan: hingga 1 minggu.\nDalam kulkas: hingga 3 bulan (disarankan disimpan dalam wadah tertutup agar tetap segar).",
   },
   {
-    question: "Apakah tersedia layanan delivery?",
+    question: "Apakah memiliki toko fisik?",
     answer:
-      "Ya, kami menyediakan layanan pengantaran untuk area tertentu agar pesanan sampai dengan aman.",
-  },
-  {
-    question: "Bagaimana cara melakukan pemesanan?",
-    answer:
-      "Anda bisa melakukan pemesanan melalui WhatsApp atau langsung melalui halaman menu di website kami.",
-  },
-  {
-    question: "Apakah produk Nonoi Bake halal?",
-    answer:
-      "Semua produk kami dibuat menggunakan bahan halal dan proses yang higienis.",
-  },
-  {
-    question: "Apakah ada promo atau diskon khusus?",
-    answer:
-      "Kami sering memberikan promo pada momen tertentu. Ikuti media sosial kami agar tidak ketinggalan informasi.",
+      "Saat ini kami masih berbasis home-made (rumahan) dan belum memiliki toko fisik.",
   },
 ];
 
