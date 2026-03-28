@@ -40,7 +40,7 @@ export default function MomentSection() {
   };
 
   return (
-    <section className="relative py-10 overflow-hidden bg-white">
+    <section className="relative py-10 overflow-hidden bg-white overflow-x-hidden">
       <div className="absolute inset-0 bg-size-[14px_24px] bg-[linear-gradient(to_right,#ea580c10_1px,transparent_1px),linear-gradient(to_bottom,#ea580c10_1px,transparent_1px)] opacity-40" />
 
       <div className="container mx-auto px-5 relative z-10">
