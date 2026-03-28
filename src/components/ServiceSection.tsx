@@ -2,6 +2,7 @@
 
 import { CakeSlice, Wheat, HeartHandshake, Truck } from "lucide-react";
 import { motion } from "framer-motion";
+import ShinyText from "@/components/ui/ShinyText";
 
 const services = [
   {
@@ -46,15 +47,27 @@ export default function ServiceSection() {
             Mengapa Memilih Kami
           </motion.p>
 
-          <motion.h2
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-4xl md:text-6xl font-black mt-4 font-koulen text-gray-900"
+            className="mt-4 flex justify-center"
           >
-            KEUNGGULAN NONOI BAKE
-          </motion.h2>
+            <ShinyText
+              text="KEUNGGULAN NONOI BAKE"
+              speed={3}
+              delay={0}
+              color="#111827"
+              shineColor="#ffffff"
+              spread={120}
+              direction="left"
+              yoyo={false}
+              pauseOnHover={false}
+              disabled={false}
+              className="text-4xl md:text-6xl font-black font-koulen"
+            />
+          </motion.div>
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">

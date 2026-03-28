@@ -1,3 +1,4 @@
+import CurvedBake from "@/components/CurvedBake";
 import CustomerSection from "@/components/CustomerSection";
 import FAQSection from "@/components/FAQSection";
 import Header from "@/components/Header";
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <Header />
       <ServiceSection />
+      <CurvedBake />
       <CustomerSection />
       <ProcessSection />
       <MomentSection />

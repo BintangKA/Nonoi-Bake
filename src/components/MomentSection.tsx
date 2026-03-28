@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Counter from "@/components/Counter";
+import Counter from "@/components/ui/Counter";
 import { motion } from "framer-motion";
 import { Variants } from "motion/react";
 
