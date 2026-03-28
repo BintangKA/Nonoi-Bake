@@ -4,6 +4,7 @@ import Image from "next/image";
 import Counter from "@/components/ui/Counter";
 import { motion } from "framer-motion";
 import { Variants } from "motion/react";
+import CircularText from "@/components/ui/CircularText";
 
 export default function MomentSection() {
   const containerVariants = {
@@ -50,16 +51,25 @@ export default function MomentSection() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="flex flex-col md:items-end mb-10"
         >
-          <div className="max-w-2xl text-center md:text-right">
-            <h2 className="text-4xl md:text-5xl font-bold font-koulen text-gray-900 leading-[1.1]">
-              Hidangan Manis yang <br />
-              Membuat{" "}
-              <span className="text-orange-600">Setiap Perayaan Berkesan</span>
-            </h2>
-
-            <div className="h-1.5 w-24 bg-orange-500 mt-6 ml-auto hidden md:block rounded-full" />
-
-            <p className="mt-6 text-gray-600 font-inter text-lg md:text-xl leading-relaxed">
+          <div className="container md:text-right">
+            <div className="flex items-center justify-between gap-2">
+              <CircularText
+                text="NONOI*BAKE*NONOI*BAKE*"
+                onHover="speedUp"
+                spinDuration={20}
+              />
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-koulen text-gray-900 leading-[1.1] max-w-[70%] text-right">
+                Hidangan Manis yang <br />
+                Membuat{" "}
+                <span className="text-orange-600">
+                  Setiap Perayaan Berkesan
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div className="max-w-2xl text-right">
+            {" "}
+            <p className="mt-6 text-gray-600 font-inter text-base sm:text-lg md:text-xl leading-relaxed">
               Cocok dinikmati dalam berbagai acara spesial seperti Natal, Tahun
               Baru, Idul Fitri, pernikahan, arisan, hingga perayaan ulang tahun
               bersama orang terdekat.

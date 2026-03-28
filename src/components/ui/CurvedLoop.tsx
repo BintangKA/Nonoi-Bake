@@ -174,7 +174,7 @@ const CurvedLoop: FC<CurvedLoopProps> = ({
 
   return (
     <div
-      className="flex items-center justify-center w-full py-12 sm:py-16 md:py-20"
+      className="flex items-center justify-center w-full sm:py-10 md:py-20 font-koulen"
       style={{ cursor: cursorStyle }}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}

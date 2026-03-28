@@ -27,10 +27,10 @@ const faqs = [
 ];
 
 export default function FAQSection() {
-  const [active, setActive] = useState<number | null>(0);
+  const [active, setActive] = useState<number | null>(null); 
 
   const toggle = (index: number) => {
-    setActive(active === index ? null : index);
+    setActive((prev) => (prev === index ? null : index));
   };
 
   return (
