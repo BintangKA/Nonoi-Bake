@@ -79,9 +79,7 @@ export default function Products() {
     const message = `
 ${greeting}
 
-Saya ingin memesan produk berikut:
-
-Produk : ${product.title}
+Saya ingin memesan produk ${product.title}
 
 Apakah produk ini masih tersedia?
 `;
