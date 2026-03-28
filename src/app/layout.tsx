@@ -75,7 +75,7 @@ export default function RootLayout({
     <html lang="id">
       <body
         suppressHydrationWarning
-        className={`${inter.variable} ${poppins.variable} ${koulen.variable} antialiased relative`}
+        className={`${inter.variable} ${poppins.variable} ${koulen.variable} antialiased relative overflow-x-hidden`}
       >
         <Navbar />
         {children}
