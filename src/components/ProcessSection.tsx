@@ -42,13 +42,14 @@ export default function ProcessSection() {
   return (
     <section
       ref={containerRef}
-      className="container mx-auto px-6 py-20 font-poppins "
+      className="container mx-auto px-6 py-20 font-poppins overflow-hidden"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
         <div className="lg:sticky lg:top-40 h-fit sm:mx-auto">
           <motion.p
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
             className="flex items-center gap-3 text-sm font-bold tracking-[0.2em] text-gray-900 uppercase"
           >
             <span className="w-2 h-2 bg-[#6d0f1b] inline-block"></span>
@@ -58,6 +59,7 @@ export default function ProcessSection() {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             className="text-5xl md:text-7xl font-black text-[#6d0f1b] mt-8 leading-tight font-koulen"
           >
             KESEGARAN YANG <br />
@@ -65,23 +67,26 @@ export default function ProcessSection() {
             KESEMPURNAAN
           </motion.h2>
 
-          <motion.button
+          <motion.a
+            href="https://wa.me/628125614541?text=Halo%20saya%20ingin%20pesan%20kue"
+            target="_blank"
+            rel="noopener noreferrer"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="mt-12 bg-black text-white px-10 py-5 rounded-full font-bold flex items-center gap-3 shadow-xl hover:bg-[#6d0f1b] transition-colors"
+            viewport={{ once: true }}
+            className="mt-12 inline-flex items-center gap-3 bg-black text-white px-10 py-5 rounded-full font-bold shadow-xl hover:bg-[#6d0f1b] transition-colors"
           >
             Pesan Kotakmu Sekarang
             <span className="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center text-xs">
               ↗
             </span>
-          </motion.button>
+          </motion.a>
         </div>
 
-
         <div className="relative pl-12 lg:pl-20 mx-auto">
-
           <div className="absolute left-0 top-0 w-1 h-full bg-gray-100 rounded-full" />
-
 
           <motion.div
             style={{ scaleY, originY: 0 }}

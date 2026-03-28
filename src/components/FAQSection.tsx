@@ -34,7 +34,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="font-koulen text-4xl tracking-wide">
           Pertanyan Umum?
