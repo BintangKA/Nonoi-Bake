@@ -74,12 +74,13 @@ export default function RootLayout({
   return (
     <html lang="id">
       <body
-        suppressHydrationWarning
-        className={`${inter.variable} ${poppins.variable} ${koulen.variable} antialiased relative overflow-x-hidden`}
+        className={`${inter.variable} ${poppins.variable} ${koulen.variable} antialiased`}
       >
-        <Navbar />
-        {children}
-        <Footer />
+        <div className="overflow-x-hidden w-full max-w-full">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
