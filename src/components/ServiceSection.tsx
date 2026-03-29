@@ -33,7 +33,7 @@ const services = [
 
 export default function ServiceSection() {
   return (
-    <section className="bg-white pb-10 relative overflow-hidden font-poppins">
+    <section className="bg-white pb-5 md:pb-0 relative font-poppins ">
       <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-96 h-96 bg-orange-50 rounded-full blur-3xl opacity-60"></div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">

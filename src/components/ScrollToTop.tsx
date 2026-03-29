@@ -32,8 +32,7 @@ export default function ScrollToTop() {
 
   return (
     <>
-      <div className="fixed bottom-8 right-6 z-50 flex flex-col items-end gap-3">
-        {/* 🔝 SCROLL TO TOP (DI ATAS) */}
+      <div className="fixed bottom-8 right-6 z-50 flex flex-col items-end gap-3 ">
         <AnimatePresence>
           {showButton && (
             <motion.button

@@ -15,7 +15,7 @@ export default function Header() {
   };
 
   return (
-    <header className="relative w-full min-h-dvh -top-20 bg-[#F6F0EB] flex items-center justify-center overflow-hidden">
+    <header className="relative w-full min-h-dvh -top-20 bg-[#F6F0EB] flex items-center justify-center ">
       <div className="max-w-7xl mx-auto w-full px-6 lg:px-16 flex flex-col items-center justify-center relative z-10">
         <motion.div
           variants={containerVariants}

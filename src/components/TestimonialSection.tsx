@@ -52,7 +52,7 @@ export default function TestimonialSection() {
   };
 
   return (
-    <section className="container mx-auto px-6 py-10 font-poppins overflow-hidden">
+    <section className="container mx-auto px-6 py-10 font-poppins ">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
