@@ -74,10 +74,12 @@ export default function RootLayout({
   return (
     <html lang="id">
       <body
-        className={`${inter.variable} ${poppins.variable} ${koulen.variable} antialiased overflow-x-hidden`}
+        className={`${inter.variable} ${poppins.variable} ${koulen.variable} antialiased`}
       >
         <Navbar />
-        {children}
+
+        <main className="overflow-x-hidden">{children}</main>
+
         <Footer />
       </body>
     </html>
