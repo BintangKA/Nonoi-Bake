@@ -45,7 +45,7 @@ export default function Navbar() {
       className={`
     sticky z-50 border-b border-white/20
     bg-white backdrop-blur-xl shadow-[0_4px_30px_rgba(0,0,0,0.1)]
-    transition-all duration-500
+    transition-all duration-500 
 
     ${
       isScrolled
@@ -54,7 +54,7 @@ export default function Navbar() {
     }
   `}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 font-poppins">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 font-poppins ">
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="flex items-center">
             <motion.div whileHover={{ scale: 1.05 }}>
