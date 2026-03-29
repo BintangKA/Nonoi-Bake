@@ -42,7 +42,7 @@ export default function ProcessSection() {
   return (
     <section
       ref={containerRef}
-      className="container mx-auto px-6 py-20 font-poppins overflow-x-hidden"
+      className="container mx-auto px-6 py-20 font-poppins "
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
         <div className="lg:sticky lg:top-40 h-fit sm:mx-auto">
