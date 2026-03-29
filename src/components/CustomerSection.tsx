@@ -5,8 +5,7 @@ import { motion } from "framer-motion";
 
 export default function CustomerSection() {
   return (
-    <section className="relative min-h-150 w-full bg-[#FAF9F6] flex items-center py-10 ">
-      {/* Background Decor */}
+    <section className="relative min-h-150 w-full  flex items-center py-10 ">
       <div className="absolute -top-12 -left-12 w-64 h-64 bg-yellow-400 rounded-full blur-[80px] opacity-40 z-0" />
       <div className="absolute top-1/3 left-1/2 w-8 h-8 bg-orange-400 rounded-full blur-[10px] opacity-60 z-0" />
 
